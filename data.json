@@ -1,0 +1,60 @@
+{
+	"!DOCTYPE": {
+		"@": {
+			"": "html"
+		}
+	},
+	"html": {
+		"head": {
+			"title": "Test"
+		}, 
+		"body": [
+			{
+				"h1": "Experimental json-to-html converter"
+			},
+			{
+				"p": {
+					"@": {
+						"class": "para"
+					},
+					"": "Since html is basically having syntax similar to xml, so we can code html directly as json."
+				}
+			}, 		
+			{
+				"p": {
+					"@": {
+						"class": ["para", "dim"]
+					},
+					"": "After that this tool can be used to convert the json file into an equivalent html file."
+				}
+			},
+			{
+				"//": "Custom comments"
+			},
+			{
+				"div": {
+					"div": [
+						{"span": "Spanning title"},
+						{"br": ""},
+						{"span": "Lorem ipsum lorem ipsum lorem ipsum"}
+					],
+					"input": {
+						"@": {
+							"type": "checkbox",
+							"name": "confirmation",
+							"": ["disabled", "checked"]							
+						},
+						"": "Accepts terms &amp; conditions"
+					},
+					"button": {
+						"@": {
+							"type": "button",
+							"": "disabled"
+						},
+						"": "Like"
+					}
+				}
+			}
+		]
+	}
+}
