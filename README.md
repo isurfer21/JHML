@@ -121,8 +121,8 @@ After using this experimental tool to generate HTML code, I have noticed
 4. JHML would be useful for intermediate code like for cross-language conversion.
 5. Storage in this format is size-effective due to it's small size when minified JSON.
 
+### Copyright & License
 
+Copyright (c) 2019 Abhishek Kumar.
 
---
-Copyright (c) 2019 Abhishek Kumar. 
 Licensed under MIT License.
